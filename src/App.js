@@ -2,7 +2,9 @@ import Calculadora from './components/calculator/Calculadora';
 
 function App() {
   return (
-    <Calculadora />
+    <div className='App'>
+      <Calculadora />
+    </div>
   );
 }
 
