@@ -36,14 +36,22 @@ export const Container = styled.div `
 
       :first-child {
         button {
-          background-color: #A2A2A2;
-          color: black;
+          background-color: black;
+          color: #ffffff;
           font-family: inherit;
+
+          :hover {
+            background-color: #F08784;
+          }
         }
         
         button:last-child {
-          background-color: #D67876;
+          background-color: black;
           color: #ffffff;
+
+          :hover {
+            background-color: #F08784;
+          }
         }
       }
 

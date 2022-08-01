@@ -7,17 +7,21 @@ export const StyledButton = styled.button `
   border: none;
   font-size: 36px;
   font-weight: 400;
-  background-color: #333333;
+  background-color: black;
   color: #ffffff;
   font-family: inherit;
   cursor: pointer;
-  transition: 0.2s ease-in;
+  transition: 0.20s ease-in;
   
   :hover {
-    filter: brightness(1.4);
+    background-color: #333333;
   }
 
   :last-child {
-        background-color: #D67876;
+        background-color: black;
+
+        :hover {
+          background-color: #F08784;
+        }
       }
 `;
