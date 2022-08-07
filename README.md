@@ -5,5 +5,5 @@
  
  ##
  ## 💠 View in:
- https://belraposo.github.io/ProjectReactJS-Calculator/
+ https://belraposo.github.io/Project-Calculator/
 
